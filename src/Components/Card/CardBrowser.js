@@ -154,7 +154,8 @@ const LineSmall = styled.div`
   width: ${p => p.small ? "152px" : "201px"};
 `;
 const Container = styled.div`
-  background: #F6F9FF;
+  background: #FDFEFF;
+  box-shadow: 0px 28px 25px rgba(7, 14, 39, 0.05);
   border-radius: 12px;
   padding: 16px;
   display: flex;
