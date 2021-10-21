@@ -138,7 +138,7 @@ const SubLogo = styled.div`
 `;
 const LogoContainer = styled.div``;
 const WrapperContent = styled.div`
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
   display: flex;
   align-items: center;

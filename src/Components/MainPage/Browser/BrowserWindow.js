@@ -120,6 +120,7 @@ const Wrapper = styled.div`
   grid-column-start: 2;
   grid-column: 2 / 12;
   position: relative;
+  transform: scale(0.9) translate(0%,-40px);
   @media (max-width: 1200px) {
     transform: scale(0.7);
     grid-column: 1 / 12;
@@ -130,16 +131,18 @@ const Wrapper = styled.div`
 `;
 
 const Container = styled.div`
-  max-width: 1440px;
+  max-width: 1280px;
   padding: 0 15px;
   margin: 80px auto 50px;
   display: grid;
+  max-height: 580px;
   grid-template-columns: repeat(12, 1fr);
   @media (max-width: 1200px) {
     margin-top: 0;
   }
   @media (max-width: 768px) {
     display: block;
+    max-height: initial;
   }
 `;
 

@@ -45,7 +45,12 @@ const ContainerText = styled.div`
   margin-top: 30px;
 
   & > div {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+  }
+  @media(max-width: 576px) {
+    & > div {
+      margin-bottom: 40px;
+    } 
   }
 `;
 
@@ -69,22 +74,8 @@ const WrapperImage = styled.div`
   }
 `;
 
-const ContainerCardLeft = styled.div`
-  position: absolute;
-  bottom: 30px;
-  right: 70px;
-  max-width: 460px;
-`;
-
-const ContainerCard = styled.div`
-  position: absolute;
-  bottom: 30px;
-  left: 70px;
-  max-width: 460px;
-`;
-
 const Container = styled.div`
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 100px auto 50px;
   grid-gap: 80px;
   padding: 0 15px;

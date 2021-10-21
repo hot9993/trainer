@@ -141,7 +141,7 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 100px auto 50px;
   grid-gap: 80px;
   padding: 0 15px;

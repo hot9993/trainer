@@ -60,7 +60,7 @@ const HeaderContainer = styled.div`
 `;
 
 const WrapperContent = styled.div`
-  max-width: 1440px;
+  max-width: 1280px;
   padding: 20px 15px;
   margin: 0 auto;
   display: flex;
@@ -138,13 +138,13 @@ const LineWrapper = styled.div`
   max-height: 40px;
   display: flex;
   justify-content: flex-end;
-  max-width: 1440px;
+  max-width: 1280px;
   padding: 8px 20px;
   margin: 0 auto;
 `;
 
 const Container = styled.div`
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto;
 `;
 

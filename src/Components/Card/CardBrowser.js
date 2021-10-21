@@ -88,11 +88,12 @@ const PriceButton = styled.div`
   line-height: 29px;
   text-align: center;
   letter-spacing: -0.03em;
-  color: #FFFFFF;
+  color: #7E8BB6;
   transition: all 0.6s ease;
 
   &.button__active {
     background: #448AFF;
+    color: white;
   }
 `;
 const PriceButtonStyled = styled.div`

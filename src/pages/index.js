@@ -5,7 +5,6 @@ import TargetGroup from "../Components/MainPage/TargetGroup";
 import About from "../Components/MainPage/About";
 import StartForm from "../Components/MainPage/StartForm";
 import BlockInfo from "../Components/MainPage/BlockInfo";
-import ModalQr from "../Components/Modal";
 
 export default function Home() {
   return (
